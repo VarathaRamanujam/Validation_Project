@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Personal Page</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<center>
+<h1>WELCOME TO YOUR PAGE  </h1>
+<h2><span th:text="${userLogin}"></span></h2>
+<h2><span th:text="${userEmail}"></span></h2>
+<a href="/login">LogIn</a>
+<a href="/register">Register</a>
+</center>
+</body>
+</html>
